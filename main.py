@@ -1,4 +1,5 @@
 import primes
+import parzyste
 
 if __name__ == '__main__':
     # a = [1, 2, 3, 4, 5]
@@ -13,6 +14,9 @@ if __name__ == '__main__':
     # for item in a.values():
     #     print(item)
 
-    lista = primes.get_n_primes(100000)
+    # lista = primes.get_n_primes(100000)
+    # for liczba in lista:
+    #     print(liczba)
+    lista = parzyste.parzyste()
     for liczba in lista:
         print(liczba)
